@@ -21,9 +21,9 @@ body {
   min-height: 100vh;
 }
 
-main {
-  align-self: end;
-  justify-self: center;
+.main {
+  display: flex;
+  justify-content: center;
 }
 
 nav {
