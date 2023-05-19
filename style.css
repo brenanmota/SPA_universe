@@ -62,7 +62,7 @@ nav a {
   justify-content: space-around;
 }
 
-button {
+.initialButton {
   border: 2px solid #FFFFFF;
   border-radius: .5rem;
   padding: 1.2rem 5.2rem;
@@ -73,9 +73,10 @@ button {
   margin-top: 3rem;
   background-color: transparent;
   color: var(--text-color);
+  text-decoration: none;
 }
 
-button:hover {
+.initialButton:hover {
   background-color: #FFFFFF;
   color: #02799D;
 }
